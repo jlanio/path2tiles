@@ -1,0 +1,25 @@
+{
+  "name": "path2tiles",
+  "version": "1.0.0",
+  "description": "Package that delivers the address tile.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlanio/path2tiles.git"
+  },
+  "keywords": [
+    "path",
+    "tiles",
+    "tile",
+    "adress"
+  ],
+  "author": "jlanio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlanio/path2tiles/issues"
+  },
+  "homepage": "https://github.com/jlanio/path2tiles#readme"
+}

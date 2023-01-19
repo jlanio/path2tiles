@@ -1,6 +1,6 @@
 # path2tiles
 Simple package for building the tiles paths. From a coordinate or Bounding Box.
-To build the complete address for your service you should use the fragment of information shown below.
+To build the complete address for your service you should use the fragment of information show in exemples.
 
 
 ## Install

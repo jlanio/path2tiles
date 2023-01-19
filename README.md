@@ -1,17 +1,22 @@
 # path2tiles
 Simple package for building the tiles paths. From a coordinate or Bounding Box.
 
-## Examples
+## Install
+```node
+npm install path2tiles
+```
 
+## Examples
 ```javascript
 import path2tiles from 'path2tiles'
 ```
+
 #### getTilesInCoordinate(lat, lon, minZoom, maxZoom)
 ```javascript
 path2tiles.getTilesInCoordinate(-63.80030,-9.02742, 7,10)
 
 ```
-#### Response
+##### Response
 ```javascript
 [
   { z: 7, y: 93, x: 60 },
@@ -26,7 +31,7 @@ path2tiles.getTilesInCoordinate(-63.80030,-9.02742, 7,10)
 path2tiles.getTilesInBoundingBox([-63.80030,-9.02742,-63.21144,-8.66163], 7,10)
 
 ```
-#### Response
+##### Response
 ```javascript
 [
   { x: 41, y: 67, z: 7 },
